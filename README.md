@@ -1,0 +1,1 @@
+# shopegy-ecommerce-app-django
