@@ -1,0 +1,14 @@
+<h3>Login Form</h3>
+
+    <p>{{msg}}</p>
+
+<form action="" method="POST">
+    {% csrf_token %}
+    E-Mail:<br>
+    <input type="email" name="email">
+    <br>
+    Password:<br>
+    <input type="password" name="password">
+    <br>
+    <input type="submit" name="submit" value="Login">
+</form>
